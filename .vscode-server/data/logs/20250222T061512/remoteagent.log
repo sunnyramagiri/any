@@ -1,0 +1,26 @@
+2025-02-22 06:15:12.649 [info] 
+
+
+
+
+2025-02-22 06:15:12.660 [info] Extension host agent started.
+2025-02-22 06:15:12.708 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2025-02-22 06:15:12.721 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2025-02-22 06:15:13.306 [info] [<unknown>][5af8d857][ExtensionHostConnection] New connection established.
+2025-02-22 06:15:13.307 [info] [<unknown>][f1832e1d][ManagementConnection] New connection established.
+2025-02-22 06:15:13.395 [info] [<unknown>][5af8d857][ExtensionHostConnection] <1295> Launched Extension Host Process.
+2025-02-22 06:20:12.661 [info] New EH opened, aborting shutdown
+2025-02-22 06:30:31.507 [info] [<unknown>][f1832e1d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-22 06:30:31.583 [info] [<unknown>][5af8d857][ExtensionHostConnection] <1295> Extension Host Process exited with code: 0, signal: null.
+2025-02-22 06:30:31.586 [info] Last EH closed, waiting before shutting down
+2025-02-22 06:30:40.584 [info] [<unknown>][8eef6fb4][ManagementConnection] New connection established.
+2025-02-22 06:30:40.588 [info] [<unknown>][9470bc26][ExtensionHostConnection] New connection established.
+2025-02-22 06:30:40.593 [info] [<unknown>][9470bc26][ExtensionHostConnection] <5887> Launched Extension Host Process.
+2025-02-22 06:35:31.588 [info] New EH opened, aborting shutdown
+2025-02-22 06:35:31.592 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/out/server-main.js:181:1060)
+    at process.emit (node:events:530:35)
+2025-02-22 07:35:35.194 [info] [<unknown>][8eef6fb4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-22 07:35:35.297 [info] [<unknown>][9470bc26][ExtensionHostConnection] <5887> Extension Host Process exited with code: 0, signal: null.
+2025-02-22 07:35:35.298 [info] Last EH closed, waiting before shutting down
+2025-02-22 07:40:35.299 [info] Last EH closed, shutting down
