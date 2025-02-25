@@ -10,11 +10,18 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
+:q!
+|2,0,1740464875,,"q!"
 :wq
-|2,0,1740464060,,"wq"
+|2,0,1740464872,,"wq"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1740464869,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -23,7 +30,7 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+""0	LINE	0
 	---
 	version: '3.8'
 	services:
@@ -38,39 +45,65 @@
 	    ports:
 	      - 9090:8080
 	...
-|3,1,1,1,14,0,1740207803,"---","version: '3.8'","services:","  mydb:","    image: mysql","      environment:","        MYSQL_ROOT_PASSWORD: sunny","        MYSQL_ROOT_USER: sunny","        MYSQL_ROOT_DATABASE: sunny","  myjenkines:","    image: jenkins/jenkins","    ports:","      - 9090:8080","..."
+|3,1,0,1,14,0,1740464869,"---","version: '3.8'","services:","  mydb:","    image: mysql","      environment:","        MYSQL_ROOT_PASSWORD: sunny","        MYSQL_ROOT_USER: sunny","        MYSQL_ROOT_DATABASE: sunny","  myjenkines:","    image: jenkins/jenkins","    ports:","      - 9090:8080","..."
+"1	LINE	0
+	---
+	version: '3.8'
+	services:
+	  mydb:
+	    image: mysql
+	      environment:
+	        MYSQL_ROOT_PASSWORD: sunny
+	        MYSQL_ROOT_USER: sunny
+	        MYSQL_ROOT_DATABASE: sunny
+	  myjenkines:
+	    image: jenkins/jenkins
+	    ports:
+	      - 9090:8080
+	...
+|3,0,1,1,14,0,1740207803,"---","version: '3.8'","services:","  mydb:","    image: mysql","      environment:","        MYSQL_ROOT_PASSWORD: sunny","        MYSQL_ROOT_USER: sunny","        MYSQL_ROOT_DATABASE: sunny","  myjenkines:","    image: jenkins/jenkins","    ports:","      - 9090:8080","..."
 
 # File marks:
-'0  51  0  ~/playbook.yml
-|4,48,51,0,1740464060,"~/playbook.yml"
-'1  1  0  ~/pom.xml
-|4,49,1,0,1740210054,"~/pom.xml"
-'2  10  2  ~/dockerplaybook.yml
-|4,50,10,2,1740208262,"~/dockerplaybook.yml"
+'0  11  0  ~/devops-automation
+|4,48,11,0,1740464875,"~/devops-automation"
+'1  51  0  ~/playbook.yml
+|4,49,51,0,1740464060,"~/playbook.yml"
+'2  1  0  ~/pom.xml
+|4,50,1,0,1740210054,"~/pom.xml"
 '3  10  2  ~/dockerplaybook.yml
-|4,51,10,2,1740207970,"~/dockerplaybook.yml"
-'4  1  2  ~/dockerplaybook.yml
-|4,52,1,2,1740207946,"~/dockerplaybook.yml"
+|4,51,10,2,1740208262,"~/dockerplaybook.yml"
+'4  10  2  ~/dockerplaybook.yml
+|4,52,10,2,1740207970,"~/dockerplaybook.yml"
 '5  1  2  ~/dockerplaybook.yml
 |4,53,1,2,1740207946,"~/dockerplaybook.yml"
 '6  1  2  ~/dockerplaybook.yml
 |4,54,1,2,1740207946,"~/dockerplaybook.yml"
 '7  1  2  ~/dockerplaybook.yml
 |4,55,1,2,1740207946,"~/dockerplaybook.yml"
-'8  9  16  ~/dockerplaybook.yml
-|4,56,9,16,1740207929,"~/dockerplaybook.yml"
+'8  1  2  ~/dockerplaybook.yml
+|4,56,1,2,1740207946,"~/dockerplaybook.yml"
 '9  9  16  ~/dockerplaybook.yml
 |4,57,9,16,1740207929,"~/dockerplaybook.yml"
 
 # Jumplist (newest first):
+-'  11  0  ~/devops-automation
+|4,39,11,0,1740464875,"~/devops-automation"
 -'  51  0  ~/playbook.yml
 |4,39,51,0,1740464060,"~/playbook.yml"
+-'  51  0  ~/playbook.yml
+|4,39,51,0,1740464060,"~/playbook.yml"
+-'  1  0  ~/playbook.yml
+|4,39,1,0,1740464049,"~/playbook.yml"
 -'  1  0  ~/playbook.yml
 |4,39,1,0,1740464049,"~/playbook.yml"
 -'  1  0  ~/pom.xml
 |4,39,1,0,1740210054,"~/pom.xml"
 -'  1  0  ~/pom.xml
 |4,39,1,0,1740210054,"~/pom.xml"
+-'  1  0  ~/pom.xml
+|4,39,1,0,1740210054,"~/pom.xml"
+-'  1  0  ~/pom.xml
+|4,39,1,0,1740210054,"~/pom.xml"
 -'  10  2  ~/dockerplaybook.yml
 |4,39,10,2,1740208262,"~/dockerplaybook.yml"
 -'  10  2  ~/dockerplaybook.yml
@@ -79,6 +112,22 @@
 |4,39,10,2,1740208262,"~/dockerplaybook.yml"
 -'  10  2  ~/dockerplaybook.yml
 |4,39,10,2,1740208262,"~/dockerplaybook.yml"
+-'  10  2  ~/dockerplaybook.yml
+|4,39,10,2,1740208262,"~/dockerplaybook.yml"
+-'  10  2  ~/dockerplaybook.yml
+|4,39,10,2,1740208262,"~/dockerplaybook.yml"
+-'  10  2  ~/dockerplaybook.yml
+|4,39,10,2,1740208262,"~/dockerplaybook.yml"
+-'  10  2  ~/dockerplaybook.yml
+|4,39,10,2,1740208262,"~/dockerplaybook.yml"
+-'  10  2  ~/dockerplaybook.yml
+|4,39,10,2,1740207970,"~/dockerplaybook.yml"
+-'  10  2  ~/dockerplaybook.yml
+|4,39,10,2,1740207970,"~/dockerplaybook.yml"
+-'  10  2  ~/dockerplaybook.yml
+|4,39,10,2,1740207970,"~/dockerplaybook.yml"
+-'  10  2  ~/dockerplaybook.yml
+|4,39,10,2,1740207970,"~/dockerplaybook.yml"
 -'  10  2  ~/dockerplaybook.yml
 |4,39,10,2,1740207970,"~/dockerplaybook.yml"
 -'  10  2  ~/dockerplaybook.yml
@@ -103,6 +152,30 @@
 |4,39,1,2,1740207953,"~/dockerplaybook.yml"
 -'  1  2  ~/dockerplaybook.yml
 |4,39,1,2,1740207953,"~/dockerplaybook.yml"
+-'  1  2  ~/dockerplaybook.yml
+|4,39,1,2,1740207953,"~/dockerplaybook.yml"
+-'  1  2  ~/dockerplaybook.yml
+|4,39,1,2,1740207953,"~/dockerplaybook.yml"
+-'  1  2  ~/dockerplaybook.yml
+|4,39,1,2,1740207953,"~/dockerplaybook.yml"
+-'  1  2  ~/dockerplaybook.yml
+|4,39,1,2,1740207953,"~/dockerplaybook.yml"
+-'  1  2  ~/dockerplaybook.yml
+|4,39,1,2,1740207953,"~/dockerplaybook.yml"
+-'  1  2  ~/dockerplaybook.yml
+|4,39,1,2,1740207953,"~/dockerplaybook.yml"
+-'  1  2  ~/dockerplaybook.yml
+|4,39,1,2,1740207953,"~/dockerplaybook.yml"
+-'  1  2  ~/dockerplaybook.yml
+|4,39,1,2,1740207953,"~/dockerplaybook.yml"
+-'  1  2  ~/dockerplaybook.yml
+|4,39,1,2,1740207946,"~/dockerplaybook.yml"
+-'  1  2  ~/dockerplaybook.yml
+|4,39,1,2,1740207946,"~/dockerplaybook.yml"
+-'  1  2  ~/dockerplaybook.yml
+|4,39,1,2,1740207946,"~/dockerplaybook.yml"
+-'  1  2  ~/dockerplaybook.yml
+|4,39,1,2,1740207946,"~/dockerplaybook.yml"
 -'  1  2  ~/dockerplaybook.yml
 |4,39,1,2,1740207946,"~/dockerplaybook.yml"
 -'  1  2  ~/dockerplaybook.yml
@@ -136,6 +209,34 @@
 -'  9  16  ~/dockerplaybook.yml
 |4,39,9,16,1740207936,"~/dockerplaybook.yml"
 -'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207936,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207936,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207936,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207936,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207936,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207936,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207936,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207936,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207936,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207936,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207936,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207936,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207929,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207929,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
 |4,39,9,16,1740207929,"~/dockerplaybook.yml"
 -'  9  16  ~/dockerplaybook.yml
 |4,39,9,16,1740207929,"~/dockerplaybook.yml"
@@ -143,6 +244,18 @@
 |4,39,9,16,1740207929,"~/dockerplaybook.yml"
 -'  9  16  ~/dockerplaybook.yml
 |4,39,9,16,1740207929,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207929,"~/dockerplaybook.yml"
+-'  9  16  ~/dockerplaybook.yml
+|4,39,9,16,1740207929,"~/dockerplaybook.yml"
+-'  1  0  ~/dockerplaybook.yml
+|4,39,1,0,1740207803,"~/dockerplaybook.yml"
+-'  1  0  ~/dockerplaybook.yml
+|4,39,1,0,1740207803,"~/dockerplaybook.yml"
+-'  1  0  ~/dockerplaybook.yml
+|4,39,1,0,1740207803,"~/dockerplaybook.yml"
+-'  1  0  ~/dockerplaybook.yml
+|4,39,1,0,1740207803,"~/dockerplaybook.yml"
 -'  1  0  ~/dockerplaybook.yml
 |4,39,1,0,1740207803,"~/dockerplaybook.yml"
 -'  1  0  ~/dockerplaybook.yml
@@ -171,98 +284,6 @@
 |4,39,14,2,1740207703,"~/dockerplaybook.yml"
 -'  14  2  ~/dockerplaybook.yml
 |4,39,14,2,1740207703,"~/dockerplaybook.yml"
--'  15  2  ~/dockerplaybook.yml
-|4,39,15,2,1740207703,"~/dockerplaybook.yml"
--'  14  2  ~/dockerplaybook.yml
-|4,39,14,2,1740207703,"~/dockerplaybook.yml"
--'  15  2  ~/dockerplaybook.yml
-|4,39,15,2,1740207703,"~/dockerplaybook.yml"
--'  14  2  ~/dockerplaybook.yml
-|4,39,14,2,1740207703,"~/dockerplaybook.yml"
--'  14  2  ~/dockerplaybook.yml
-|4,39,14,2,1740207703,"~/dockerplaybook.yml"
--'  15  2  ~/dockerplaybook.yml
-|4,39,15,2,1740207703,"~/dockerplaybook.yml"
--'  14  2  ~/dockerplaybook.yml
-|4,39,14,2,1740207703,"~/dockerplaybook.yml"
--'  15  2  ~/dockerplaybook.yml
-|4,39,15,2,1740207703,"~/dockerplaybook.yml"
--'  14  2  ~/dockerplaybook.yml
-|4,39,14,2,1740207703,"~/dockerplaybook.yml"
--'  14  2  ~/dockerplaybook.yml
-|4,39,14,2,1740207703,"~/dockerplaybook.yml"
--'  1  0  ~/dockerplaybook.yml
-|4,39,1,0,1740207411,"~/dockerplaybook.yml"
--'  1  0  ~/dockerplaybook.yml
-|4,39,1,0,1740207411,"~/dockerplaybook.yml"
--'  1  0  ~/dockerplaybook.yml
-|4,39,1,0,1740207411,"~/dockerplaybook.yml"
--'  1  0  ~/dockerplaybook.yml
-|4,39,1,0,1740207411,"~/dockerplaybook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
--'  1  0  ~/playbook.yml
-|4,39,1,0,1740206154,"~/playbook.yml"
 
 # History of marks within files (newest to oldest):
 
