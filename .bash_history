@@ -103,3 +103,9 @@ git config pull https://github.com/sunnyramagiri/devops-automation.git
 git pull https://github.com/sunnyramagiri/devops-automation.git
 git pull origin master
 git add .\
+git add .
+git commit -m "mycicd"
+git config --global
+git push origin master
+cd
+exit
