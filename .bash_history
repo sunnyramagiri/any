@@ -70,3 +70,36 @@ git add playbook.yml
 git commit -m "second commit"
 git push 
 git push orgin master
+ls
+git add .
+git commit -m"cicd"
+git status
+git push 
+git push https://github.com/sunnyramagiri/devops-automation.git
+git git remote add origin https://github.com/sunnyramagiri/devops-automation.git
+git init
+git add .
+git commit -m "cicd"
+git remote add origin https://github.com/sunnyramagiri/devops-automation.git
+git puch https://github.com/sunnyramagiri/devops-automation.git
+git push https://github.com/sunnyramagiri/devops-automation.git
+git pull
+git pull https://github.com/sunnyramagiri/devops-automation.git
+git fetch https://github.com/sunnyramagiri/devops-automation.git
+git init
+ls
+git add docker.yml 
+git add dockerplaybook.yml 
+git playbook.yml
+vim playbook.yml 
+git add playbook.yml 
+git add pom.xml 
+git commit -m"myfiles"
+git push https://github.com/sunnyramagiri/devops-automation.git
+git pull origin master
+ls
+git config pull
+git config pull https://github.com/sunnyramagiri/devops-automation.git
+git pull https://github.com/sunnyramagiri/devops-automation.git
+git pull origin master
+git add .\
